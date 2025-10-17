@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">symmetry</journal-id>
+      <journal-title-group>
+        <journal-title>Symmetry</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Symmetry</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Symmetry</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-8994</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/sym12091394</article-id>
+      <article-id pub-id-type="publisher-id">symmetry-12-01394</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>On Approximate Aesthetic Curves</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cr&#x103;ciun</surname>
+            <given-names>Ioana</given-names>
+          </name>
+          <xref rid="af1-symmetry-12-01394" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Popa</surname>
+            <given-names>Dorian</given-names>
+          </name>
+          <xref rid="af2-symmetry-12-01394" ref-type="aff">2</xref>
+          <xref rid="c1-symmetry-12-01394" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0195-5701</contrib-id>
+          <name>
+            <surname>Serdean</surname>
+            <given-names>Florina</given-names>
+          </name>
+          <xref rid="af3-symmetry-12-01394" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tudose</surname>
+            <given-names>Lucian</given-names>
+          </name>
+          <xref rid="af3-symmetry-12-01394" ref-type="aff">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-symmetry-12-01394"><label>1</label>Department of Automotive Engineering and Transports, Technical University of Cluj-Napoca, 400114 Cluj-Napoca, Romania; <email>Ioana.Craciun@auto.utcluj.ro</email></aff>
+      <aff id="af2-symmetry-12-01394"><label>2</label>Department of Mathematics, Technical University of Cluj-Napoca, 400114 Cluj-Napoca, Romania</aff>
+      <aff id="af3-symmetry-12-01394"><label>3</label>Department of Mechanical Systems Engineering, Technical University of Cluj-Napoca, 400114 Cluj-Napoca, Romania; <email>Florina.Rusu@omt.utcluj.ro</email> (F.S.); <email>Lucian.Tudose@omt.utcluj.ro</email> (L.T.)</aff>
+      <author-notes>
+        <corresp id="c1-symmetry-12-01394"><label>*</label>Correspondence: <email>Popa.Dorian@math.utcluj.ro</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>08</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>09</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>9</issue>
+      <elocation-id>1394</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>07</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>08</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2020 by the authors.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Symmetry plays an essential role for generating aesthetic forms. The curve is the basic element used by designers to obtain aesthetic forms. A curve with a linear logarithmic curvature graph gradient is called aesthetic curve. The aesthetic value of a curve increases when its gradient is close to a straight line. We introduce the notions of approximate aesthetic curves and approximate neutral curves and obtain estimations between the curvature of an approximate aesthetic/neutral curve and an aesthetic curve.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>aesthetic curve</kwd>
+        <kwd>approximate aesthetic curve</kwd>
+        <kwd>logarithmic curvature graph gradient</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-symmetry-12-01394" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The curve is the basic design element used to obtain shapes and silhouettes of industrial products. This is why designers try to make it aesthetic in order to improve the quality of the shape design. The aesthetic aspect of a curve is one of the most studied topics [<xref ref-type="bibr" rid="B1-symmetry-12-01394">1</xref>,<xref ref-type="bibr" rid="B2-symmetry-12-01394">2</xref>]. Farin considers that one of the main aspects that must be used in the evaluation of an aesthetic curve is its curvature distribution [<xref ref-type="bibr" rid="B3-symmetry-12-01394">3</xref>,<xref ref-type="bibr" rid="B4-symmetry-12-01394">4</xref>]. If the changes of the curvature are constant, i.e., the second derivative of the curve is monotonic, then the curve is beautiful [<xref ref-type="bibr" rid="B4-symmetry-12-01394">4</xref>,<xref ref-type="bibr" rid="B5-symmetry-12-01394">5</xref>,<xref ref-type="bibr" rid="B6-symmetry-12-01394">6</xref>]. Among them, a family of curves called the log-aesthetic curves has been deeply investigated with respect to the relation between designers&#x2032; visual languages and mathematical properties; see for example [<xref ref-type="bibr" rid="B7-symmetry-12-01394">7</xref>]. The Logarithmic Distribution Diagram of Curvature (LDDC) was used to analyze the characteristics of planar curves with monotonic curvature by Harada et al. in [<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>]. LDDC describes the relation between the length frequencies of a segmented curve with respect to its radius of curvature plotted in log-log coordinate system. The aesthetic value of a curve for automobile design can be identified based on these graphs [<xref ref-type="bibr" rid="B6-symmetry-12-01394">6</xref>,<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>]. In 2003, Kanaya et al. [<xref ref-type="bibr" rid="B9-symmetry-12-01394">9</xref>] proposed the generation of Logarithmic Curvature Histogram (LCH) to substitute LDDC; see also [<xref ref-type="bibr" rid="B10-symmetry-12-01394">10</xref>,<xref ref-type="bibr" rid="B11-symmetry-12-01394">11</xref>]. Gobithaasan et al. [<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>] proposed the formula of the Logarithmic Curvature Graph&#x2019;s (LCG) gradient to define an aesthetic curve: a curve with a constant or a linear LCG gradient is called aesthetic curve. Moreover, he obtained a classification of aesthetic curves taking into consideration the sign of the gradient. In [<xref ref-type="bibr" rid="B12-symmetry-12-01394">12</xref>], the authors obtain a relation for the curvature if the gradient of the curve is linear. New aesthetic standards based on the Golden Ratio and its generalization have been proposed in [<xref ref-type="bibr" rid="B1-symmetry-12-01394">1</xref>,<xref ref-type="bibr" rid="B2-symmetry-12-01394">2</xref>].</p>
+      <p>Several research studies have focused on determining the aesthetics of an object and on identifying how certain object features evoke feelings during their perception. Despite the large number of definitions and approaches, there is not a generally valid model for determining the aesthetic value of an object because &#x201C;the visual perceptions are accompanied by a certain intuitive feeling of value&#x201D; called aesthetic feeling [<xref ref-type="bibr" rid="B13-symmetry-12-01394">13</xref>,<xref ref-type="bibr" rid="B14-symmetry-12-01394">14</xref>]. Since people&#x2019;s perceptions of aesthetics are not necessarily objective, we propose two new notions in this paper, namely <italic>approximate aesthetic curve</italic> and <italic>approximate neutral curves</italic>, and we study their relation to an aesthetic curve. For each class of curves, the paper includes a definition, a characterization theorem as well as illustrative applications. The notion of approximate aesthetic curve, corresponding to an approximate solution of an equation, is connected to the notion of Ulam Stability of that equation. An equation is called Ulam stable if for every approximate solution of it there exists an exact solution of the equation near it.</p>
+    </sec>
+    <sec id="sec2-symmetry-12-01394">
+      <title>2. Aesthetic Curves</title>
+      <p>Let <inline-formula><mml:math display="block" id="mm1"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> be an arc-length <inline-formula><mml:math display="block" id="mm2"><mml:semantics><mml:mi>s</mml:mi></mml:semantics></mml:math></inline-formula> parameterized curve defined by the equations:<disp-formula id="FD1-symmetry-12-01394"><label>(1)</label><mml:math display="block" id="mm3"><mml:semantics><mml:mrow><mml:mrow><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math display="block" id="mm4"><mml:semantics><mml:mi>S</mml:mi></mml:semantics></mml:math></inline-formula> is the total length of the curve and <inline-formula><mml:math display="block" id="mm5"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> is a point of coordinates <inline-formula><mml:math display="block" id="mm6"><mml:semantics><mml:mi>x</mml:mi></mml:semantics></mml:math></inline-formula>,<inline-formula><mml:math display="block" id="mm7"><mml:semantics><mml:mi>y</mml:mi></mml:semantics></mml:math></inline-formula> on <inline-formula><mml:math display="block" id="mm8"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+      <p>The Logarithmic Curvature Graph (LCG) gradient is given by the relation:<disp-formula id="FD2-symmetry-12-01394"><label>(2)</label><mml:math display="block" id="mm9"><mml:semantics><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2033;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math display="block" id="mm10"><mml:semantics><mml:mi>k</mml:mi></mml:semantics></mml:math></inline-formula> is the curvature of <inline-formula><mml:math display="block" id="mm11"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math display="block" id="mm12"><mml:semantics><mml:mi>k</mml:mi></mml:semantics></mml:math></inline-formula> is a nonconstant function (see [<xref ref-type="bibr" rid="B7-symmetry-12-01394">7</xref>]). The notion of aesthetic curve is defined in [<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>] as follows:</p>
+      <statement>
+        <label><bold>Definition</bold>&#xA0;<bold>1.</bold></label>
+        <p>[<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>]. <italic>A curve is said to be an aesthetic curve if its LCG gradient is either constant or the gradient is represented by a straight line with a nonzero slope.</italic></p>
+      </statement>
+      <p>A classification of aesthetic curves is given below.</p>
+      <statement>
+        <label><bold>Definition</bold>&#xA0;<bold>2.</bold></label>
+        <p>[<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>]. <italic>An aesthetic curve is called:</italic>
+      <list list-type="bullet"><list-item><p><italic>Convergent: if the LCG gradient is positive;</italic></p></list-item><list-item><p><italic>Divergent: if the LCG gradient is negative;</italic></p></list-item><list-item><p><italic>Neutral: if the LCG gradient is zero.</italic></p></list-item></list></p>
+      </statement>
+      <p>In the next theorem, we give a characterization of convergent, divergent, and neutral curves and obtain their representation.</p>
+      <statement>
+        <label><bold>Theorem</bold>&#xA0;<bold>1.</bold></label>
+        <p>
+          <italic>Let</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm13">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>be a curve given by (1). Then:</italic>
+          <list list-type="order">
+            <list-item>
+              <p>
+                <inline-formula>
+                  <mml:math display="block" id="mm14">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>(</mml:mo>
+                          <mml:mi>C</mml:mi>
+                          <mml:mo>)</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+                <italic>is convergent if and only if</italic>
+                <inline-formula>
+                  <mml:math display="block" id="mm15">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>|</mml:mo>
+                          <mml:mi>k</mml:mi>
+                          <mml:mo>|</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+                <italic>is strictly decreasing;</italic>
+              </p>
+            </list-item>
+            <list-item>
+              <p>
+                <inline-formula>
+                  <mml:math display="block" id="mm16">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>(</mml:mo>
+                          <mml:mi>C</mml:mi>
+                          <mml:mo>)</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+                <italic>is divergent if and only if</italic>
+                <inline-formula>
+                  <mml:math display="block" id="mm17">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>|</mml:mo>
+                          <mml:mi>k</mml:mi>
+                          <mml:mo>|</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+                <italic>is strictly increasing;</italic>
+              </p>
+            </list-item>
+            <list-item>
+              <p><inline-formula><mml:math display="block" id="mm18"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula><italic>is neutral if and only if</italic><inline-formula><mml:math id="mm19" display="block"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>s</mml:mi></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, <italic>and c<sub>1</sub>, c<sub>2</sub> are real constants.</italic></p>
+            </list-item>
+          </list>
+        </p>
+      </statement>
+      <statement>
+        <label><bold>Proof.</bold>&#xA0;</label>
+        <p>1. <inline-formula><mml:math display="block" id="mm20"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is convergent <inline-formula><mml:math display="block" id="mm21"><mml:semantics><mml:mrow><mml:mo>&#x21D4;</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, which is equivalent to:<disp-formula id="FD3-symmetry-12-01394"><label>(3)</label><mml:math display="block" id="mm37"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2033;</mml:mo></mml:msup><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo><mml:mi>k</mml:mi><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo><mml:mo>)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Let <inline-formula><mml:math display="block" id="mm22"><mml:semantics><mml:mi>z</mml:mi></mml:semantics></mml:math></inline-formula> be defined by <inline-formula><mml:math display="block" id="mm23"><mml:semantics><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Then <inline-formula><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mi>z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2033;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>,<inline-formula><mml:math id="mm25" display="block"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&#xA0;</mml:mo><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Then the relation (3) becomes <inline-formula><mml:math display="block" id="mm26"><mml:semantics><mml:mrow><mml:msup><mml:mi>z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> or <inline-formula><mml:math display="block" id="mm27"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, which is equivalent to <inline-formula><mml:math display="block" id="mm28"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mrow/><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Therefore <inline-formula><mml:math display="block" id="mm29"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mi>k</mml:mi><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is a strictly decreasing function. We conclude that <inline-formula><mml:math display="block" id="mm30"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mi>k</mml:mi><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is a strictly decreasing function since log is strictly increasing.</p>
+        <p>2. Similarly, we get, for divergent curves, <inline-formula><mml:math display="block" id="mm31"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. So <inline-formula><mml:math display="block" id="mm32"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mi>k</mml:mi><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is an increasing function.</p>
+        <p>3. If <inline-formula><mml:math display="block" id="mm33"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is a neutral curve, then <inline-formula><mml:math display="block" id="mm34"><mml:semantics><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> or <inline-formula><mml:math display="block" id="mm35"><mml:semantics><mml:mrow><mml:msup><mml:mi>z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and integrating with respect to <inline-formula><mml:math display="block" id="mm36"><mml:semantics><mml:mi>s</mml:mi></mml:semantics></mml:math></inline-formula> it follows:<disp-formula id="FD35-symmetry-12-01394"><mml:math display="block" id="mm183"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>s</mml:mi></mml:mrow></mml:msup><mml:mo>;</mml:mo><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula>where <inline-formula><mml:math display="block" id="mm189"><mml:semantics><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&#x2208;</mml:mo><mml:mi mathvariant="double-struck">R</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> are arbitrary constants.</p>
+        <p>The representations of the curves can be obtained from the following relation (see [<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>]):<disp-formula id="FD4-symmetry-12-01394"><label>(4)</label><mml:math display="block" id="mm190"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>S</mml:mi></mml:munderover><mml:mrow><mml:mi>cos</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>t</mml:mi></mml:munderover><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>u</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>u</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:mstyle><mml:mi>d</mml:mi><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>S</mml:mi></mml:munderover><mml:mrow><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>t</mml:mi></mml:munderover><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>u</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>u</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:mstyle><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math display="block" id="mm38"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is the measure in radians of the angle from the positive axis <inline-formula><mml:math display="block" id="mm39"><mml:semantics><mml:mi>x</mml:mi></mml:semantics></mml:math></inline-formula> to the unit tangent vector to the curve.&#x2003;&#x25A1;</p>
+      </statement>
+    </sec>
+    <sec id="sec3-symmetry-12-01394">
+      <title>3. Approximate Neutral Curves</title>
+      <p>In [<xref ref-type="bibr" rid="B8-symmetry-12-01394">8</xref>] is defined the notion of an aesthetic curve as a curve with the LCG gradient constant or a straight line. The authors also mention that the aesthetic value of the curve increases when the LCG gradient approximates to a straight line, and, in particular, for neutral curves to zero. In what follows, we propose a definition for measuring the aesthetic value for a neutral curve in the sense mentioned above.</p>
+      <statement>
+        <label><bold>Definition</bold>&#xA0;<bold>3.</bold></label>
+        <p><italic>Let</italic><inline-formula><mml:math display="block" id="mm40"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. <italic>We say that a curve</italic><inline-formula><mml:math display="block" id="mm41"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>:<inline-formula><mml:math display="block" id="mm42"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><italic>is</italic><inline-formula><mml:math display="block" id="mm43"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><italic>neutral curve if its LCG gradient</italic><inline-formula><mml:math display="block" id="mm44"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula><italic>satisfies the relation:</italic><disp-formula id="FD5-symmetry-12-01394"><label>(5)</label><mml:math display="block" id="mm45"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula><italic>for all</italic><inline-formula><mml:math display="block" id="mm46"><mml:semantics><mml:mrow><mml:mi>s</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2009;</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+      </statement>
+      <p>A curve satisfying (5) for some positive <inline-formula><mml:math display="block" id="mm47"><mml:semantics><mml:mi>&#x3B5;</mml:mi></mml:semantics></mml:math></inline-formula> is called <italic>approximate neutral curve</italic>.</p>
+      <p>For an <inline-formula><mml:math display="block" id="mm48"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>neutral curve we will give an estimation of its curvature. Since in the definition of the gradient we suppose that <inline-formula><mml:math display="block" id="mm49"><mml:semantics><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2260;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> for all <inline-formula><mml:math display="block" id="mm50"><mml:semantics><mml:mrow><mml:mi>s</mml:mi><mml:mo>,</mml:mo><mml:mo>&#x2009;</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, we deduce that <inline-formula><mml:math display="block" id="mm51"><mml:semantics><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> or <inline-formula><mml:math display="block" id="mm52"><mml:semantics><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> on the interval <inline-formula><mml:math display="block" id="mm53"><mml:semantics><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. So, according to Theorem 2, the curve <inline-formula><mml:math display="block" id="mm54"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is either convergent or divergent.</p>
+      <statement>
+        <label><bold>Theorem</bold>&#xA0;<bold>2.</bold></label>
+        <p>
+          <italic>Suppose that</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm55">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>is an</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm56">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>&#x3B5;</mml:mi>
+                  <mml:mo>&#x2212;</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>neutral convergent curve given by (1). Then its curvature satisfies the following relation</italic>
+          <disp-formula id="FD6-symmetry-12-01394">
+            <label>(6)</label>
+            <mml:math display="block" id="mm57">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>|</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>k</mml:mi>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mi>s</mml:mi>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mo>|</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mrow>
+                    <mml:mo>|</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>k</mml:mi>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mn>0</mml:mn>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mo>|</mml:mo>
+                  </mml:mrow>
+                  <mml:msup>
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mo>|</mml:mo>
+                        <mml:mrow>
+                          <mml:mn>1</mml:mn>
+                          <mml:mo>&#x2212;</mml:mo>
+                          <mml:mfrac>
+                            <mml:mrow>
+                              <mml:msup>
+                                <mml:mi>k</mml:mi>
+                                <mml:mo>&#x2032;</mml:mo>
+                              </mml:msup>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mn>0</mml:mn>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                            </mml:mrow>
+                            <mml:mrow>
+                              <mml:mi>k</mml:mi>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mn>0</mml:mn>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                            </mml:mrow>
+                          </mml:mfrac>
+                          <mml:mi>&#x3B5;</mml:mi>
+                          <mml:mi>s</mml:mi>
+                        </mml:mrow>
+                        <mml:mo>|</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mo>&#x2212;</mml:mo>
+                      <mml:mfrac>
+                        <mml:mn>1</mml:mn>
+                        <mml:mi>&#x3B5;</mml:mi>
+                      </mml:mfrac>
+                    </mml:mrow>
+                  </mml:msup>
+                  <mml:mo>,</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:mn>0</mml:mn>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mi>s</mml:mi>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mi>S</mml:mi>
+                  <mml:mo>.</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </disp-formula>
+        </p>
+      </statement>
+      <statement>
+        <label><bold>Proof.</bold>&#xA0;</label>
+        <p>The curve <inline-formula><mml:math display="block" id="mm58"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> satisfies the relation <inline-formula><mml:math display="block" id="mm59"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&lt;</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, which is equivalent to
+      <disp-formula id="FD7-symmetry-12-01394"><label>(7)</label><mml:math display="block" id="mm60"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2033;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>Let <inline-formula><mml:math display="block" id="mm61"><mml:semantics><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Then (7) becomes <inline-formula><mml:math display="block" id="mm62"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&#x2265;</mml:mo><mml:msup><mml:mi>z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2265;</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, which leads to
+      <disp-formula id="FD8-symmetry-12-01394"><mml:math display="block" id="mm63"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&#x2265;</mml:mo><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2265;</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>It follows <inline-formula><mml:math display="block" id="mm64"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&#x2265;</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&#x2265;</mml:mo><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> or <inline-formula><mml:math display="block" id="mm65"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2003;&#x25A1;</p>
+      </statement>
+      <p>Integrating the previous relation on <inline-formula><mml:math display="block" id="mm66"><mml:semantics><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and taking account that <inline-formula><mml:math display="block" id="mm67"><mml:semantics><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> we get
+      <disp-formula id="FD9-symmetry-12-01394"><mml:math display="block" id="mm68"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>&#x3B5;</mml:mi></mml:mfrac><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      or
+      <disp-formula id="FD10-symmetry-12-01394"><mml:math display="block" id="mm69"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>&#x3B5;</mml:mi></mml:mfrac></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <statement>
+        <label><bold>Remark</bold>&#xA0;<bold>1.</bold></label>
+        <p><inline-formula><mml:math display="block" id="mm70"><mml:semantics><mml:mrow><mml:munderover><mml:mrow><mml:mi>lim</mml:mi></mml:mrow><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2192;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mrow/></mml:munderover><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>&#x3B5;</mml:mi></mml:mfrac></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:munderover><mml:mrow><mml:mi>lim</mml:mi></mml:mrow><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2192;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mrow/></mml:munderover><mml:mtext>&#xA0;</mml:mtext><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>&#x3B5;</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mi>s</mml:mi></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>s</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+      </statement>
+      <p>An analogous result holds for convergent curves.</p>
+      <statement>
+        <label><bold>Theorem</bold>&#xA0;<bold>3.</bold></label>
+        <p>
+          <italic>Suppose that</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm71">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>is an</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm72">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>&#x3B5;</mml:mi>
+                  <mml:mo>&#x2212;</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>neutral divergent curve given by (1) with</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm73">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>k</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mn>0</mml:mn>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&#x2260;</mml:mo>
+                  <mml:mn>0</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>. Then its curvature satisfies the following estimation:</italic>
+          <disp-formula id="FD11-symmetry-12-01394">
+            <label>(8)</label>
+            <mml:math display="block" id="mm74">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>|</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>k</mml:mi>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mi>s</mml:mi>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mo>|</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&#x2265;</mml:mo>
+                  <mml:mrow>
+                    <mml:mo>|</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>k</mml:mi>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mn>0</mml:mn>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mo>|</mml:mo>
+                  </mml:mrow>
+                  <mml:msup>
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mrow>
+                          <mml:mn>1</mml:mn>
+                          <mml:mo>+</mml:mo>
+                          <mml:mfrac>
+                            <mml:mrow>
+                              <mml:msup>
+                                <mml:mi>k</mml:mi>
+                                <mml:mo>&#x2032;</mml:mo>
+                              </mml:msup>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mn>0</mml:mn>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                            </mml:mrow>
+                            <mml:mrow>
+                              <mml:mi>k</mml:mi>
+                              <mml:mrow>
+                                <mml:mo>(</mml:mo>
+                                <mml:mn>0</mml:mn>
+                                <mml:mo>)</mml:mo>
+                              </mml:mrow>
+                            </mml:mrow>
+                          </mml:mfrac>
+                          <mml:mi>&#x3B5;</mml:mi>
+                          <mml:mi>s</mml:mi>
+                        </mml:mrow>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mfrac>
+                        <mml:mn>1</mml:mn>
+                        <mml:mi>&#x3B5;</mml:mi>
+                      </mml:mfrac>
+                    </mml:mrow>
+                  </mml:msup>
+                  <mml:mo>,</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:mn>0</mml:mn>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mi>s</mml:mi>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:mi>S</mml:mi>
+                  <mml:mo>.</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </disp-formula>
+        </p>
+      </statement>
+      <statement>
+        <label><bold>Proof.</bold>&#xA0;</label>
+        <p>The gradient of <inline-formula><mml:math display="block" id="mm75"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> satisfies the relation:<disp-formula id="FD12-symmetry-12-01394"><mml:math display="block" id="mm76"><mml:semantics><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula>and the function <inline-formula><mml:math display="block" id="mm77"><mml:semantics><mml:mi>z</mml:mi></mml:semantics></mml:math></inline-formula> defined in the proof of the Theorem 3 satisfies the double inequality:<disp-formula id="FD13-symmetry-12-01394"><mml:math display="block" id="mm78"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&lt;</mml:mo><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The curvature <inline-formula><mml:math display="block" id="mm79"><mml:semantics><mml:mi>k</mml:mi></mml:semantics></mml:math></inline-formula> fulfills the relation
+      <disp-formula id="FD14-symmetry-12-01394"><mml:math display="block" id="mm80"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&#x2265;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+      which leads to <disp-formula id="FD15-symmetry-12-01394"><mml:math display="block" id="mm81"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2265;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>&#x3B5;</mml:mi></mml:mfrac><mml:mi>log</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      or <disp-formula id="FD16-symmetry-12-01394"><mml:math display="block" id="mm82"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2265;</mml:mo><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mi>&#x3B5;</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mi>&#x3B5;</mml:mi></mml:mfrac></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The theorem is proved.&#x2003;&#x25A1;</p>
+      </statement>
+      <statement>
+        <label><bold>Application</bold>&#xA0;<bold>1.</bold></label>
+        <p><italic>Let</italic><inline-formula><mml:math display="block" id="mm83"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula><italic>be an</italic><inline-formula><mml:math display="block" id="mm84"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><italic>neutral convergent curve with</italic><inline-formula><mml:math display="block" id="mm85"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. <italic>Then, from Theorem 3 we obtain:</italic><disp-formula id="FD17-symmetry-12-01394"><mml:math display="block" id="mm86"><mml:semantics><mml:mrow><mml:mn>0</mml:mn><mml:mo>&lt;</mml:mo><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </statement>
+      <p>So, every curve with <inline-formula><mml:math display="block" id="mm87"><mml:semantics><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>p</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>p</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> satisfies the previous inequality and the corresponding neutral curve has the curvature <inline-formula><mml:math display="block" id="mm88"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula></p>
+      <p>Taking for the representation of the approximate neutral curves <inline-formula><mml:math display="block" id="mm89"><mml:semantics><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> we obtain a family of logarithmic spirals (<xref ref-type="fig" rid="symmetry-12-01394-f001">Figure 1</xref>).</p>
+      <statement>
+        <label><bold>Application</bold>&#xA0;<bold>2.</bold></label>
+        <p>
+          <italic>For</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm90">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>&#x3B5;</mml:mi>
+                  <mml:mo>=</mml:mo>
+                  <mml:msup>
+                    <mml:mrow>
+                      <mml:mn>10</mml:mn>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mo>&#x2212;</mml:mo>
+                      <mml:mn>1</mml:mn>
+                    </mml:mrow>
+                  </mml:msup>
+                  <mml:mo>,</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:mi>k</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mn>0</mml:mn>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>=</mml:mo>
+                  <mml:mn>1</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>and</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm91">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msup>
+                    <mml:mi>k</mml:mi>
+                    <mml:mo>&#x2032;</mml:mo>
+                  </mml:msup>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mn>0</mml:mn>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>=</mml:mo>
+                  <mml:mo>&#x2212;</mml:mo>
+                  <mml:mn>1</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>we have</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm92">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>k</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>s</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&#x2264;</mml:mo>
+                  <mml:msup>
+                    <mml:mrow>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mrow>
+                          <mml:mn>1</mml:mn>
+                          <mml:mo>+</mml:mo>
+                          <mml:mfrac>
+                            <mml:mi>s</mml:mi>
+                            <mml:mrow>
+                              <mml:mn>10</mml:mn>
+                            </mml:mrow>
+                          </mml:mfrac>
+                        </mml:mrow>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mo>&#x2212;</mml:mo>
+                      <mml:mn>10</mml:mn>
+                    </mml:mrow>
+                  </mml:msup>
+                  <mml:mo>.</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+        </p>
+      </statement>
+      <p>Taking account of the well-known inequality <inline-formula><mml:math display="block" id="mm93"><mml:semantics><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>x</mml:mi><mml:mo>&#x2264;</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mi>x</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mo>&#x2200;</mml:mo><mml:mi>x</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mo>&#x211D;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, it can be easily shown that <inline-formula><mml:math display="block" id="mm94"><mml:semantics><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:msup><mml:mo>&#x2264;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mi>s</mml:mi><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula></p>
+      <p>If we consider <inline-formula><mml:math display="block" id="mm95"><mml:semantics><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>&#x3C0;</mml:mi><mml:mn>4</mml:mn></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>k</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mi>s</mml:mi><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>p</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:mrow><mml:mtext>&#xA0;</mml:mtext><mml:mi>p</mml:mi></mml:mrow><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>10</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>20</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>30</mml:mn></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> then <inline-formula><mml:math display="block" id="mm96"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is easily computed using Legendre&#x2013;Gauss quadrature for each case and the graphical representations of the curves are given in <xref ref-type="fig" rid="symmetry-12-01394-f002">Figure 2</xref> together with the plot of the curve obtained for <inline-formula><mml:math display="block" id="mm97"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> The mentioned numerical integration method has been used for the computation of all definite integrals within this paper.</p>
+      <p>If we consider <inline-formula><mml:math display="block" id="mm98"><mml:semantics><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>&#x3C0;</mml:mi><mml:mn>4</mml:mn></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>k</mml:mi><mml:mi>N</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mi>s</mml:mi><mml:mi>N</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>N</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>6</mml:mn><mml:mo>,</mml:mo><mml:mn>10</mml:mn></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> then <inline-formula><mml:math display="block" id="mm99"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is easily computed for each case and the graphical representations of the curves are given in <xref ref-type="fig" rid="symmetry-12-01394-f003">Figure 3</xref>.</p>
+      <statement>
+        <label><bold>Application</bold>&#xA0;<bold>3.</bold></label>
+        <p><italic>Let</italic><inline-formula><mml:math display="block" id="mm100"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula><italic>be an</italic><inline-formula><mml:math display="block" id="mm101"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><italic>neutral divergent curve with</italic><inline-formula><mml:math display="block" id="mm102"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. <italic>Then from Theorem 3 we obtain</italic><inline-formula><mml:math display="block" id="mm103"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>s</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula></p>
+      </statement>
+      <p>So, every curve with <inline-formula><mml:math display="block" id="mm104"><mml:semantics><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>p</mml:mi><mml:mi>s</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>p</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> satisfies the inequality above. Taking for the representation of the approximate neutral curves <inline-formula><mml:math display="block" id="mm105"><mml:semantics><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>y</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> we obtain a family of Euler spirals (<xref ref-type="fig" rid="symmetry-12-01394-f004">Figure 4</xref>). The corresponding neutral curve has the curvature <inline-formula><mml:math display="block" id="mm106"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mi>s</mml:mi></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula></p>
+    </sec>
+    <sec id="sec4-symmetry-12-01394">
+      <title>4. Approximate Aesthetic Curves</title>
+      <p>Similarly to <inline-formula><mml:math display="block" id="mm107"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>neutral curves we define the notion of <inline-formula><mml:math display="block" id="mm108"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>aesthetic curve in spirit of Definition 3.</p>
+      <statement>
+        <label><bold>Definition</bold>&#xA0;<bold>4.</bold></label>
+        <p><italic>Let</italic><inline-formula><mml:math display="block" id="mm109"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. <italic>A curve</italic><inline-formula><mml:math display="block" id="mm110"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula><italic>of LCG gradient</italic><inline-formula><mml:math display="block" id="mm111"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula><italic>is called</italic><inline-formula><mml:math display="block" id="mm112"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><italic>aesthetic curve if there exist real numbers a, b such that:</italic><disp-formula id="FD18-symmetry-12-01394"><label>(9)</label><mml:math display="block" id="mm113"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>b</mml:mi></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </statement>
+      <p>Clearly if <inline-formula><mml:math display="block" id="mm114"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> then <inline-formula><mml:math display="block" id="mm115"><mml:semantics><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> for all <inline-formula><mml:math display="block" id="mm116"><mml:semantics><mml:mrow><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> Therefore, <inline-formula><mml:math display="block" id="mm117"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is an aesthetic curve. If <inline-formula><mml:math display="block" id="mm118"><mml:semantics><mml:mrow><mml:mi>a</mml:mi><mml:mo>=</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> then we get the notion of <inline-formula><mml:math display="block" id="mm119"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>neutral curve studied in <xref ref-type="sec" rid="sec3-symmetry-12-01394">Section 3</xref> of this paper. A curve that is <inline-formula><mml:math display="block" id="mm120"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>aesthetic for some <inline-formula><mml:math display="block" id="mm121"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> is called approximate aesthetic curve.</p>
+      <p>Our goal is to obtain an estimation of the curvature for an approximate aesthetic curve. For this we need some auxiliary results.</p>
+      <statement>
+        <label><bold>Theorem</bold>&#xA0;<bold>4.</bold></label>
+        <p>
+          <italic>Let</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm122">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>be a curve of gradient</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm123">
+              <mml:semantics>
+                <mml:mi>&#x3BB;</mml:mi>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>with</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm124">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:mi>k</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mn>0</mml:mn>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&#x2260;</mml:mo>
+                  <mml:mn>0</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>. Then its curvature</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm125">
+              <mml:semantics>
+                <mml:mi>k</mml:mi>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>is given by the relation:</italic>
+          <disp-formula id="FD19-symmetry-12-01394">
+            <label>(10)</label>
+            <mml:math display="block" id="mm126">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>k</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>s</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>=</mml:mo>
+                  <mml:msub>
+                    <mml:mi>C</mml:mi>
+                    <mml:mn>2</mml:mn>
+                  </mml:msub>
+                  <mml:msup>
+                    <mml:mi>e</mml:mi>
+                    <mml:mrow>
+                      <mml:mstyle displaystyle="true">
+                        <mml:mrow>
+                          <mml:munderover>
+                            <mml:mo>&#x222B;</mml:mo>
+                            <mml:mn>0</mml:mn>
+                            <mml:mi>s</mml:mi>
+                          </mml:munderover>
+                          <mml:mrow>
+                            <mml:mfrac>
+                              <mml:mn>1</mml:mn>
+                              <mml:mrow>
+                                <mml:msub>
+                                  <mml:mi>C</mml:mi>
+                                  <mml:mn>1</mml:mn>
+                                </mml:msub>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mstyle displaystyle="true">
+                                  <mml:mrow>
+                                    <mml:msubsup>
+                                      <mml:mo>&#x222B;</mml:mo>
+                                      <mml:mn>0</mml:mn>
+                                      <mml:mi>u</mml:mi>
+                                    </mml:msubsup>
+                                    <mml:mrow>
+                                      <mml:mi>&#x3BB;</mml:mi>
+                                      <mml:mrow>
+                                        <mml:mo>(</mml:mo>
+                                        <mml:mi>t</mml:mi>
+                                        <mml:mo>)</mml:mo>
+                                      </mml:mrow>
+                                      <mml:mi>d</mml:mi>
+                                      <mml:mi>t</mml:mi>
+                                    </mml:mrow>
+                                  </mml:mrow>
+                                </mml:mstyle>
+                              </mml:mrow>
+                            </mml:mfrac>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>u</mml:mi>
+                          </mml:mrow>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:mrow>
+                  </mml:msup>
+                  <mml:mo>,</mml:mo>
+                  <mml:mi>s</mml:mi>
+                  <mml:mo>&#x2208;</mml:mo>
+                  <mml:mrow>
+                    <mml:mo>[</mml:mo>
+                    <mml:mrow>
+                      <mml:mn>0</mml:mn>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>S</mml:mi>
+                    </mml:mrow>
+                    <mml:mo>]</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>,</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </disp-formula>
+          <italic>where C<sub>1</sub>, C<sub>2</sub> are real constants. Moreover,</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm127">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>C</mml:mi>
+                    <mml:mn>1</mml:mn>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mrow>
+                      <mml:mi>k</mml:mi>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mn>0</mml:mn>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:msup>
+                        <mml:mi>k</mml:mi>
+                        <mml:mo>&#x2032;</mml:mo>
+                      </mml:msup>
+                      <mml:mrow>
+                        <mml:mo>(</mml:mo>
+                        <mml:mn>0</mml:mn>
+                        <mml:mo>)</mml:mo>
+                      </mml:mrow>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mo>,</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:msub>
+                    <mml:mi>C</mml:mi>
+                    <mml:mn>2</mml:mn>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mi>k</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mn>0</mml:mn>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>.</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+        </p>
+      </statement>
+      <statement>
+        <label><bold>Proof.</bold>&#xA0;</label>
+        <p>The curvature <inline-formula><mml:math display="block" id="mm128"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is the solution of the differential equation
+      <disp-formula id="FD20-symmetry-12-01394"><label>(11)</label><mml:math display="block" id="mm129"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2033;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo>=</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The function <inline-formula><mml:math display="block" id="mm130"><mml:semantics><mml:mrow><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> satisfies the equation <inline-formula><mml:math display="block" id="mm131"><mml:semantics><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mi>z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> So <inline-formula><mml:math display="block" id="mm132"><mml:semantics><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>s</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mi>z</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> Then
+      <disp-formula id="FD21-symmetry-12-01394"><mml:math display="block" id="mm133"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>s</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+      and integrating the previous relation on <inline-formula><mml:math display="block" id="mm134"><mml:semantics><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> we get
+      <disp-formula id="FD22-symmetry-12-01394"><mml:math display="block" id="mm135"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>s</mml:mi></mml:munderover><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mfrac><mml:mi>d</mml:mi><mml:mi>u</mml:mi></mml:mrow></mml:mrow></mml:mstyle><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>Therefore
+      <disp-formula id="FD23-symmetry-12-01394"><mml:math display="block" id="mm136"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>s</mml:mi></mml:munderover><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mfrac><mml:mi>d</mml:mi><mml:mi>u</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math display="block" id="mm137"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>C</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> The theorem is proved.&#x2003;&#x25A1;</p>
+      </statement>
+      <p>We also recall the following result (see [<xref ref-type="bibr" rid="B15-symmetry-12-01394">15</xref>]):<disp-formula id="FD24-symmetry-12-01394"><label>(12)</label><mml:math display="block" id="mm138"><mml:semantics><mml:mrow><mml:mstyle displaystyle="true"><mml:mrow><mml:mo>&#x222B;</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:msup><mml:mi>x</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mi>x</mml:mi><mml:mo>+</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:mstyle><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mi>x</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mi>C</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>&#x3B4;</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mi>x</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mi>C</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>&#x3B4;</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msqrt><mml:mi>&#x3B4;</mml:mi></mml:msqrt></mml:mrow></mml:mfrac><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mi>x</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msqrt><mml:mi>&#x3B4;</mml:mi></mml:msqrt></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mi>x</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:msqrt><mml:mi>&#x3B4;</mml:mi></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>C</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>&#x3B4;</mml:mi><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      for every real numbers <italic>a</italic>, <italic>b</italic>, <italic>c</italic>, <italic>a</italic> &#x2260; 0, <italic>&#x3B4;</italic> = <italic>b</italic><sup>2</sup> &#x2212; 4<italic>ac</italic>.</p>
+      <p>The main result is contained in the next theorem.</p>
+      <statement>
+        <label><bold>Theorem</bold>&#xA0;<bold>5.</bold></label>
+        <p>
+          <italic>Let</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm139">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>be a curve of gradient</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm140">
+              <mml:semantics>
+                <mml:mi>&#x3BB;</mml:mi>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>and</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm141">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>&#x3B5;</mml:mi>
+                  <mml:mo>&#x2265;</mml:mo>
+                  <mml:mn>0</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>. Suppose that there exist the real numbers a, b such that (9) is satisfied, i.e.,</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm142">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>(</mml:mo>
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>)</mml:mo>
+                  </mml:mrow>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>is an</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm143">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mi>&#x3B5;</mml:mi>
+                  <mml:mo>&#x2212;</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>aesthetic curve and</italic>
+          <disp-formula id="FD25-symmetry-12-01394">
+            <label>(13)</label>
+            <mml:math display="block" id="mm144">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mo>|</mml:mo>
+                    <mml:mrow>
+                      <mml:mfrac>
+                        <mml:mi>a</mml:mi>
+                        <mml:mn>2</mml:mn>
+                      </mml:mfrac>
+                      <mml:msup>
+                        <mml:mi>u</mml:mi>
+                        <mml:mn>2</mml:mn>
+                      </mml:msup>
+                      <mml:mo>+</mml:mo>
+                      <mml:mi>b</mml:mi>
+                      <mml:mi>u</mml:mi>
+                      <mml:mo>&#x2212;</mml:mo>
+                      <mml:msub>
+                        <mml:mi>C</mml:mi>
+                        <mml:mn>1</mml:mn>
+                      </mml:msub>
+                    </mml:mrow>
+                    <mml:mo>|</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mi>&#x3B5;</mml:mi>
+                  <mml:mi>u</mml:mi>
+                  <mml:mo>,</mml:mo>
+                  <mml:mo>&#x2009;</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:mo>&#x2200;</mml:mo>
+                  <mml:mi>u</mml:mi>
+                  <mml:mo>&#x2208;</mml:mo>
+                  <mml:mrow>
+                    <mml:mo>[</mml:mo>
+                    <mml:mrow>
+                      <mml:mn>0</mml:mn>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>S</mml:mi>
+                    </mml:mrow>
+                    <mml:mo>]</mml:mo>
+                  </mml:mrow>
+                  <mml:mo>.</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </disp-formula>
+        </p>
+      </statement>
+      <p>Let <inline-formula><mml:math display="block" id="mm145"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>b</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> Then
+	   <list list-type="roman-lower"><list-item><label>(i)</label><p>If <inline-formula><mml:math display="block" id="mm146"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> we have
+      <disp-formula id="FD26-symmetry-12-01394"><mml:math display="block" id="mm147"><mml:semantics><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>+</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>&#x22C5;</mml:mo><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>+</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo>&#x2264;</mml:mo><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>+</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>&#x22C5;</mml:mo><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>+</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p></list-item><list-item><label>(ii)</label><p>If <inline-formula><mml:math display="block" id="mm148"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> then
+      <disp-formula id="FD27-symmetry-12-01394"><mml:math display="block" id="mm149"><mml:semantics><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo>&#x2264;</mml:mo><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p></list-item><list-item><label>(iii)</label><p>If <inline-formula><mml:math display="block" id="mm150"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>
+      <disp-formula id="FD28-symmetry-12-01394"><mml:math display="block" id="mm151"><mml:semantics><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup><mml:mo>&#x2264;</mml:mo><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p></list-item></list></p>
+      <statement>
+        <label><bold>Proof.</bold>&#xA0;</label>
+        <p>Suppose that there exists <italic>a, b</italic> such that (9) is satisfied and let
+      <disp-formula id="FD29-symmetry-12-01394"><mml:math display="block" id="mm152"><mml:semantics><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Then <inline-formula><mml:math display="block" id="mm153"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> for every <inline-formula><mml:math display="block" id="mm154"><mml:semantics><mml:mrow><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and
+      <disp-formula id="FD30-symmetry-12-01394"><mml:math display="block" id="mm155"><mml:semantics><mml:mrow><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle><mml:mo>=</mml:mo><mml:mfrac><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:mfrac><mml:msup><mml:mi>u</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mi>u</mml:mi><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The relation <inline-formula><mml:math display="block" id="mm156"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>s</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> leads by integration on <inline-formula><mml:math display="block" id="mm157"><mml:semantics><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi mathvariant="normal">s</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> to
+      <disp-formula id="FD31-symmetry-12-01394"><mml:math display="block" id="mm158"><mml:semantics><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>u</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mi>o</mml:mi><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>u</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:mstyle><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>So, we get
+      <disp-formula id="FD32-symmetry-12-01394"><label>(14)</label><mml:math display="block" id="mm159"><mml:semantics><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:mfrac><mml:msup><mml:mi>u</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>u</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2264;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle><mml:mo>&#x2264;</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:mfrac><mml:msup><mml:mi>u</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>u</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+      for all <inline-formula><mml:math display="block" id="mm160"><mml:semantics><mml:mrow><mml:mi>u</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> where <inline-formula><mml:math display="block" id="mm161"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msup><mml:mi>k</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2003;&#x25A1;</p>
+      </statement>
+      <p>The relation (13) implies that the left and the right hand in (14) are different of zero and have the same sign on <inline-formula><mml:math display="block" id="mm162"><mml:semantics><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> thus (14) is equivalent to
+      <disp-formula id="FD33-symmetry-12-01394"><label>(15)</label><mml:math display="block" id="mm163"><mml:semantics><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:mfrac><mml:msup><mml:mi>u</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>u</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:munderover><mml:mo>&#x222B;</mml:mo><mml:mn>0</mml:mn><mml:mi>u</mml:mi></mml:munderover><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mfrac><mml:mo>&#x2264;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:mfrac><mml:msup><mml:mi>u</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>b</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>u</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>u</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mi>S</mml:mi></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Now the estimations of <inline-formula><mml:math display="block" id="mm164"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> in (i), (ii), (iii) follow immediately from (10), (12), and (15), respectively.</p>
+      <statement>
+        <label><bold>Remark</bold>&#xA0;<bold>2.</bold></label>
+        <p>
+          <italic>Analogous estimations can be made for the other cases:</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm165">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>&#x3B4;</mml:mi>
+                    <mml:mn>1</mml:mn>
+                  </mml:msub>
+                  <mml:mo>&lt;</mml:mo>
+                  <mml:mn>0</mml:mn>
+                  <mml:mo>,</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:msub>
+                    <mml:mi>&#x3B4;</mml:mi>
+                    <mml:mn>2</mml:mn>
+                  </mml:msub>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mn>0</mml:mn>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>or</italic>
+          <inline-formula>
+            <mml:math display="block" id="mm166">
+              <mml:semantics>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mi>&#x3B4;</mml:mi>
+                    <mml:mn>1</mml:mn>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mn>0</mml:mn>
+                  <mml:mo>,</mml:mo>
+                  <mml:mtext>&#xA0;</mml:mtext>
+                  <mml:msub>
+                    <mml:mi>&#x3B4;</mml:mi>
+                    <mml:mn>2</mml:mn>
+                  </mml:msub>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mn>0</mml:mn>
+                  <mml:mo>,</mml:mo>
+                </mml:mrow>
+              </mml:semantics>
+            </mml:math>
+          </inline-formula>
+          <italic>etc.</italic>
+        </p>
+      </statement>
+      <statement>
+        <label><bold>Application</bold>&#xA0;<bold>4.</bold></label>
+        <p><italic>Let</italic><inline-formula><mml:math display="block" id="mm167"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>C</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula><italic>be an</italic><inline-formula><mml:math display="block" id="mm168"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><italic>aesthetic curve</italic><inline-formula><mml:math display="block" id="mm169"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula><italic>with</italic><inline-formula><mml:math display="block" id="mm170"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>=</mml:mo><mml:mfrac bevelled="true"><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext></mml:mrow></mml:semantics></mml:math></inline-formula><inline-formula><mml:math display="block" id="mm171"><mml:semantics><mml:mrow><mml:mi>a</mml:mi><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula><inline-formula><mml:math display="block" id="mm172"><mml:semantics><mml:mrow><mml:mi>b</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext></mml:mrow></mml:semantics></mml:math></inline-formula><inline-formula><mml:math display="block" id="mm173"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext></mml:mrow></mml:semantics></mml:math></inline-formula><inline-formula><mml:math display="block" id="mm174"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mn>0</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. <italic>Then we obtain</italic><inline-formula><mml:math display="block" id="mm175"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>3.75</mml:mn><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>5.75</mml:mn><mml:mo>&lt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula><italic>and</italic><disp-formula id="FD34-symmetry-12-01394"><mml:math display="block" id="mm176"><mml:semantics><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup><mml:mo>&#x2264;</mml:mo><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mfrac><mml:mn>2</mml:mn><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>arctan</mml:mi><mml:mfrac><mml:mn>3</mml:mn><mml:mrow><mml:mn>2</mml:mn><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mi>arctan</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>s</mml:mi><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msup><mml:mo>,</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>s</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </statement>
+      <p>The two new functions that are the bounds of <inline-formula><mml:math display="block" id="mm177"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> are represented in <xref ref-type="fig" rid="symmetry-12-01394-f005">Figure 5</xref>.</p>
+    </sec>
+    <sec id="sec5-symmetry-12-01394" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>Since the perception of beauty by people is not necessarily an objective process, in this paper we proposed two new notions that approximate the aesthetic in some sense. Therefore, we defined the notions of <inline-formula><mml:math display="block" id="mm178"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> neutral curve as well as of <inline-formula><mml:math display="block" id="mm179"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> aesthetic curve based on the approximation of their LCG gradient. Aesthetic perceptions by people can essentially depend on aspects such as geographical location, level of education, people&#x2019;s traditions, etc. By generalizing the definition of aesthetics through the proposed notions, it is possible that more people can perceive an object as beautiful.</p>
+      <p>We gave estimations between the curvature of an approximate aesthetic curve and the curvature of an aesthetic curve. Moreover, for each category of aesthetic curves we provided illustrative examples. The proposed notions can be used as aesthetic standards to ensure a wider target group of consumers in industrial products markets. They can be easily used in CAD systems for designing products that meet high aesthetics requirements in order to ensure their market success. When assembling the basic elements used to obtain an aesthetic product, symmetry has an essential role.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, I.C., D.P., F.S. and L.T.; Data curation, I.C. and F.S.; Formal analysis, I.C. and F.S.; Software, F.S.; Visualization, F.S.; Writing&#x2014;original draft, I.C., D.P., F.S. and L.T.; Writing&#x2014;review &amp; editing, I.C., D.P., F.S. and L.T. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research received no external funding.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-symmetry-12-01394">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Craciun</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Inoan</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Popa</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tudose</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Generalized Golden Ratios defined by means</article-title>
+          <source>Appl. Math. Comput.</source>
+          <year>2015</year>
+          <volume>250</volume>
+          <fpage>221</fpage>
+          <lpage>227</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B2-symmetry-12-01394">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Craciun</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Rusu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tudose</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aesthetic optimization of a basic shape</article-title>
+          <source>Acta Tech. Napoc. Ser. Appl. Math. Mech.</source>
+          <year>2015</year>
+          <volume>58</volume>
+          <fpage>257</fpage>
+          <lpage>262</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-symmetry-12-01394">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farin</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <source>Curves and Surfaces for Computer Aided Geometric Design</source>
+          <edition>5th ed.</edition>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1997</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-symmetry-12-01394">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farin</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Class A Bezier curves</article-title>
+          <source>Comput. Aided Geom. D</source>
+          <year>2006</year>
+          <volume>23</volume>
+          <fpage>573</fpage>
+          <lpage>581</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cagd.2006.03.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-symmetry-12-01394">
+        <label>5.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yoshimoto</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Moriyama</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>An aesthetic curve in the field of industrial design</article-title>
+          <source>Proceedings of the IEEE Symposium on Visual Language</source>
+          <conf-loc>Tokyo, Japan</conf-loc>
+          <conf-date>13&#x2013;16 September 1999</conf-date>
+          <fpage>38</fpage>
+          <lpage>47</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-symmetry-12-01394">
+        <label>6.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yashimoto</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic curve fairing system using visual languages</article-title>
+          <source>Proceedings of the 5th International Conference in Information Visualization</source>
+          <conf-loc>London, UK</conf-loc>
+          <conf-date>25&#x2013;27 July 2001</conf-date>
+          <fpage>53</fpage>
+          <lpage>62</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-symmetry-12-01394">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gobithaasan</surname>
+              <given-names>R.U.</given-names>
+            </name>
+            <name>
+              <surname>Teh</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Piah</surname>
+              <given-names>A.R.M.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>K.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Generation of Log-aesthetic curves using adaptive Runge&#x2013;Kutta methods</article-title>
+          <source>Appl. Math. Comput.</source>
+          <year>2014</year>
+          <volume>246</volume>
+          <fpage>257</fpage>
+          <lpage>262</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-symmetry-12-01394">
+        <label>8.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gobithaasan</surname>
+              <given-names>R.U.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Elucidation of Planar Aesthetic Curves</article-title>
+          <source>Proceedings of the 17th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision</source>
+          <conf-loc>Plzen, Czech Republic</conf-loc>
+          <conf-date>2&#x2013;5 February 2009</conf-date>
+          <fpage>183</fpage>
+          <lpage>188</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-symmetry-12-01394">
+        <label>9.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanaya</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulated Designer&#x2019;s Eyes&#x2014;Classification of Aesthetic Surfaces</article-title>
+          <source>Proceedings of the VSMM</source>
+          <conf-loc>Montreal, QC, Canada</conf-loc>
+          <conf-date>15&#x2013;17 October 2003</conf-date>
+          <fpage>289</fpage>
+          <lpage>296</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-symmetry-12-01394">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miura</surname>
+              <given-names>K.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A General Equation of Aesthetic Curves and Its Self-Affinity</article-title>
+          <source>Comput. Aided Des. Appl.</source>
+          <year>2006</year>
+          <volume>3</volume>
+          <fpage>457</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="doi">10.1080/16864360.2006.10738484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-symmetry-12-01394">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interactive aesthetic curve segment</article-title>
+          <source>Vis. Comput.</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>896</fpage>
+          <lpage>905</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00371-006-0076-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-symmetry-12-01394">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gobithaasan</surname>
+              <given-names>R.U.</given-names>
+            </name>
+            <name>
+              <surname>Karpagavalli</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>K.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shape analysis of Generalized Log-Aesthetic curves</article-title>
+          <source>Int. J. Math. Anal.</source>
+          <year>2013</year>
+          <volume>7</volume>
+          <fpage>1751</fpage>
+          <lpage>1759</lpage>
+          <pub-id pub-id-type="doi">10.12988/ijma.2013.3492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-symmetry-12-01394">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xenakis</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Arnellos</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aesthetic perception and its minimal content: A naturalistic perspective</article-title>
+          <source>Front. Psychol.</source>
+          <year>2014</year>
+          <volume>5</volume>
+          <fpage>1038</fpage>
+          <pub-id pub-id-type="doi">10.3389/fpsyg.2014.01038</pub-id>
+          <pub-id pub-id-type="pmid">25285084</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-symmetry-12-01394">
+        <label>14.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Birkhoff</surname>
+              <given-names>G.D.</given-names>
+            </name>
+          </person-group>
+          <source>Aesthetic Measure</source>
+          <publisher-name>Harvard University Press</publisher-name>
+          <publisher-loc>Cambridge, MA, USA</publisher-loc>
+          <year>1933</year>
+        </element-citation>
+      </ref>
+      <ref id="B15-symmetry-12-01394">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gradshteyn</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Ryzhik</surname>
+              <given-names>I.M.</given-names>
+            </name>
+          </person-group>
+          <source>Table of Integrals, Series, and Products</source>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+          <year>2007</year>
+          <fpage>79</fpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="symmetry-12-01394-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>A set of three <inline-formula><mml:math display="block" id="mm180"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>neutral convergent curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="symmetry-12-01394-g001.tif"/>
+      </fig>
+      <fig id="symmetry-12-01394-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Graphical representations of the particular approximate neutral curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="symmetry-12-01394-g002.tif"/>
+      </fig>
+      <fig id="symmetry-12-01394-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Graphical representations of the particular approximate neutral curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="symmetry-12-01394-g003.tif"/>
+      </fig>
+      <fig id="symmetry-12-01394-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>A set of three <inline-formula><mml:math display="block" id="mm181"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>neutral divergent curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="symmetry-12-01394-g004.tif"/>
+      </fig>
+      <fig id="symmetry-12-01394-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>A set of two <inline-formula><mml:math display="block" id="mm182"><mml:semantics><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>aesthetic curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="symmetry-12-01394-g005.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>
